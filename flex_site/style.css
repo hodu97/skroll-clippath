@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #860A35;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header form {
+    margin-left: auto;
+}
+
+header form .search {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+
+header form input[type="submit"] {
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    background-color: #F3F3F3;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+}
+
+.menu li {
+    width: 25%;
+    background-color: #A3B763;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.menu li:hover {
+    width: 35%;
+    background-color: #82924c;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.primary {
+    padding-top: 20px;
+}
+
+.primary .card-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.primary .card-list .card-item {
+    width: 33.3333%;
+}
+
+.primary .card-list .card-item .card-image {
+    background: url(https://www.satur.co.kr/web/product/extra/small/202310/5d949f38391d78381380dfc2c1a0ecbf.jpg) center top;
+    background-size: cover;
+    padding-bottom: 80%;
+}
+
+.primary .card-list .card-item .card-desc {}
